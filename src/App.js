@@ -1,4 +1,9 @@
+import { TodoList } from "./TodoList";
+import { TodoSearch } from "./TodoSearch";
+import { TodoCounter } from "./TodoCouenter";
 import "./App.css";
+import { TodoItem } from "./TodoItem";
+import { CreateTodoButton } from "./CreatTodoButton";
 
 function App() {
   return (
@@ -11,17 +16,9 @@ function App() {
         <TodoItem />
         <TodoItem />
       </TodoList>
-    </div>
-  );
-}
 
-function TodoItem() {
-  return (
-    <li>
-      <span>V</span>
-      <p>Llorar con la llorona</p>
-      <span>X</span>
-    </li>
+      <CreateTodoButton />
+    </div>
   );
 }
 
