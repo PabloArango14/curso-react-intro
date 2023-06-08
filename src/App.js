@@ -3,9 +3,14 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <TodoItem />
-      <TodoItem />
-      <TodoItem />
+      <TodoCounter />
+      <TodoSearch />
+
+      <TodoList>
+        <TodoItem />
+        <TodoItem />
+        <TodoItem />
+      </TodoList>
     </div>
   );
 }
