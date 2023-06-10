@@ -1,6 +1,6 @@
 import { TodoList } from "./TodoList";
 import { TodoSearch } from "./TodoSearch";
-import { TodoCounter } from "./TodoCouenter";
+import { TodoCounter } from "./TodoCounter";
 import "./App.css";
 import { TodoItem } from "./TodoItem";
 import { CreateTodoButton } from "./CreatTodoButton";
@@ -8,7 +8,7 @@ import { CreateTodoButton } from "./CreatTodoButton";
 function App() {
   return (
     <div className="App">
-      <TodoCounter />
+      <TodoCounter completed={16} total={25} />
       <TodoSearch />
 
       <TodoList>
