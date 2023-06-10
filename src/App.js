@@ -1,7 +1,6 @@
 import { TodoList } from "./TodoList";
 import { TodoSearch } from "./TodoSearch";
 import { TodoCounter } from "./TodoCounter";
-import "./App.css";
 import { TodoItem } from "./TodoItem";
 import { CreateTodoButton } from "./CreatTodoButton";
 import React from "react";
