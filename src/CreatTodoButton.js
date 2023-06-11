@@ -4,5 +4,3 @@ function CreateTodoButton() {
 }
 
 export { CreateTodoButton };
-
-// Comentario de prueba
